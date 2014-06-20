@@ -6,7 +6,7 @@ welsh-powell-graphic-impl
 
 ============
 
-En théorie des graphes, ```colorer un graphe``` signifie attribuer une couleur à tous les sommets de telle sorte que deux sommets adjacents soient de couleurs différentes. On appelle nombre chromatique d'un graphe le nombre minimum de couleurs nécessaires pour colorier chaque sommet du graphe de façon que deux sommets adjacents soient de couleurs différentes. Le problème de coloration qui consiste à trouver ```le nombre chromatique``` d'un graphe donné est un problème difficile. ```L'algorithme de Welsh et Powell``` est un algorithme qui se base sur les degrés 1des sommets pour proposer une assez bonne coloration du graphe. Cependant l'algorithme n'assure pas que la coloration soit minimale.
+En théorie des graphes, ```colorer un graphe``` signifie attribuer une couleur à tous les sommets de telle sorte que deux sommets adjacents soient de couleurs différentes. On appelle ```nombre chromatique``` d'un graphe le nombre minimum de couleurs nécessaires pour colorier chaque sommet du graphe de façon que deux sommets adjacents soient de couleurs différentes. Le problème de coloration qui consiste à trouver ```le nombre chromatique``` d'un graphe donné est un problème difficile. ```L'algorithme de Welsh et Powell``` est un algorithme qui se base sur les degrés des sommets pour proposer une assez bonne coloration du graphe. Cependant l'algorithme n'assure pas que la coloration soit minimale.
 
 
 ## Quelques illustrations pour démontrer l'utilité du nombre chromatique 
@@ -28,7 +28,7 @@ vous organisez une fete. Chaque cercle représente une personne et la liaison si
 
 ============
 
-Il est bon de savoir que l'algorithme de Welsh et Powell peut donner des résultats erronés et aboutir parfois à la pire des colorations possible. Par exemple si le graphe G a ```la structure de couronne à n sommets```, son nombre chromatique est de 2 si n est pair, alors que l'algorithme de Welsh et Powell donne dans certains cas une coloration utilisant n/2 couleurs selon l'ordre dans lequel sont rangés les sommets. A la page 19 du présent rapport, nous avons utilisé le programme que nous avons développé pour montrer la non fiabilité du Welsh-Powell dans certains cas.
+Il est bon de savoir que l'algorithme de Welsh et Powell peut donner des résultats erronés et aboutir parfois à la pire des colorations possible. Par exemple si le graphe G a ```la structure de couronne à n sommets```, son nombre chromatique est de 2 si n est pair, alors que l'algorithme de Welsh et Powell donne dans certains cas une coloration utilisant n/2 couleurs selon l'ordre dans lequel sont rangés les sommets. 
 
 ![Image not found](http://nabil.zz.mu/projets/photo/graphe-couronne.png "graphe-couronne")
 

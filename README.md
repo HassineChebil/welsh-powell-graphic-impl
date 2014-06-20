@@ -15,6 +15,8 @@ En théorie des graphes, ```colorer un graphe``` signifie attribuer une couleur 
 
 # Exemple 1 
 
+![Image not found](http://nabil.zz.mu/projets/photo/chimique.jpg " ")
+
 vous voulez transporter des produits chimiques d'un lieu à un autre. chaque cercle représente un produit et la liaison signifie que les deux produits ne peuvent etre transportés ensembles. Vous vous demandez, avec tous ces produits, combien de camions il vous faut au minimum.
 
 # Exemple 2
@@ -28,7 +30,7 @@ vous organisez une fete. Chaque cercle représente une personne et la liaison si
 
 Il est bon de savoir que l'algorithme de Welsh et Powell peut donner des résultats erronés et aboutir parfois à la pire des colorations possible. Par exemple si le graphe G a ```la structure de couronne à n sommets```, son nombre chromatique est de 2 si n est pair, alors que l'algorithme de Welsh et Powell donne dans certains cas une coloration utilisant n/2 couleurs selon l'ordre dans lequel sont rangés les sommets. A la page 19 du présent rapport, nous avons utilisé le programme que nous avons développé pour montrer la non fiabilité du Welsh-Powell dans certains cas.
 
-![Image not found](http://nabil.zz.mu/projets/photo/graphe-couronne.png "screenshot")
+![Image not found](http://nabil.zz.mu/projets/photo/graphe-couronne.png "graphe-couronne")
 
 ## Screenshot
 ============
